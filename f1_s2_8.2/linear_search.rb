@@ -16,7 +16,7 @@ value_to_find = 70 # Define o valor que queremos encontra no array.
 # Chama o método linear search e armazena o resultado na variável index.
 index = linear_search(array, value_to_find)
 if index
-  puts "Valor encontrado no índice #{index}." # Imprime o índice do valor encontrado.
+  puts "O valor de #{value_to_find} encontrado no índice #{index}." # Imprime o índice do valor encontrado.
 else
   puts "Valor não encontrado." # Valor não encontrado no array.
 end
