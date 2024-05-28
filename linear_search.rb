@@ -1,3 +1,4 @@
+# Definição do método linear search para realizar uma busca linear em um array;
 def linear_search(array, value)
   array.each_with_index do |element, index|
     if element == value
