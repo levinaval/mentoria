@@ -14,3 +14,8 @@ n = array.length
 
   array
 end
+
+# Exemplo de uso
+array = [64, 34, 25, 12, 22, 11, 90]
+sorted_array = bublle_sort(array)
+puts "Array ordenado: #{sorted_array}"
