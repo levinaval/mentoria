@@ -3,10 +3,12 @@ def bublle_sort(array)
 n = array.length # Determina o tamanho do array.
   loop do
     swapped = false # Variável para controlar se houve trocas durante a iterração.
+
+    # Laço para percorrer o array e comparar elementos adjacentes.
     (n - 1).times do |i|
-      if array[i] > array[i + 1]
+      if array[i] > array[i + 1] # Verifica se o elemento atual é maior que o próximo.
         array[i], array[i + 1] = array[i + 1], array[i]
-        swapped = true
+        swapped = true # Indica que uma troca foi realizada.
       end
     end
 
