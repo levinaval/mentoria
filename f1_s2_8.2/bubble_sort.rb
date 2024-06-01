@@ -1,7 +1,8 @@
+# Definição do método, para ordenar um array usando o algoritmo Bubble Sort.
 def bublle_sort(array)
-n = array.length
+n = array.length # Determina o tamanho do array.
   loop do
-    swapped = false
+    swapped = false # Variável para controlar se houve trocas durante a iterração.
     (n - 1).times do |i|
       if array[i] > array[i + 1]
         array[i], array[i + 1] = array[i + 1], array[i]
