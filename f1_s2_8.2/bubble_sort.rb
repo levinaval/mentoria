@@ -18,7 +18,7 @@ n = array.length # Determina o tamanho do array.
   array # Retorna o array ordenado.
 end
 
-# Exemplo de uso
-array = [64, 34, 25, 12, 22, 11, 90]
-sorted_array = bublle_sort(array)
-puts "Array ordenado: #{sorted_array}"
+
+array = [64, 34, 25, 12, 22, 11, 90] # Array de exemplo.
+sorted_array = bublle_sort(array) # Chama o método bubble_sort para ordenar o array.
+puts "Array ordenado: #{sorted_array}" # Imprime o array ordenado.
