@@ -12,10 +12,10 @@ n = array.length # Determina o tamanho do array.
       end
     end
 
-    break unless swapped
+    break unless swapped #Sai do loop se nenhuma troca foi realizada, indicando que o array está ordenado.
   end
 
-  array
+  array # Retorna o array ordenado.
 end
 
 # Exemplo de uso
