@@ -1,16 +1,16 @@
 def binary_search(array, value)
-  inicio = 0
-  fim = array.length - 1
+  start = 0
+  final = array.length - 1
 
-  while inicio <= fim
-    meio = (inicio + fim) / 2
+  while start <= final
+    quite = (start + final) / 2
 
-    if array[meio] == value
-      return meio
-     elsif array[meio] < value
-      inicio = meio + 1
+    if array[quite] == value
+      return quite
+     elsif array[quite] < value
+      start = quite + 1
      else
-      fim = meio - 1
+      final = quite - 1
     end
   end
   
