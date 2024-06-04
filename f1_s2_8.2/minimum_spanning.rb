@@ -15,6 +15,7 @@ class Graph
   # Função para encontrar o MST usando o algoritmo de Kruskal.
   def Kruskal_mst
     # Inicializa o Union_find.
-    parent = Array.new(vertices) { }
+    parent = Array.new(vertices) { |i| i }
+    rank = Array.new(vertices, 0)
   end
 end
