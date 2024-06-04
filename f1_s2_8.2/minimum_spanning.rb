@@ -41,3 +41,31 @@ class Graph
 end
 
 # Ordena as arestas pelo peso.
+@edges.sort_by! { |weight, u, v| weight }
+
+mst = []
+total_weight = 0
+
+# Adicionar as arestas ao MST, garantindo que não formem ciclos
+@edges.each do |weight, u, v|
+  if find.call(u) != find.call(v)
+    union.call(u, v)
+    mst << [u, v, weight]
+    total_weight += weight
+  end
+end
+
+  [mst, total_weight]
+end
+end
+# Exemplo de uso.
+graph = Graph.new(4)
+graph.add_edge(0, 1, 10)
+graph.add_edge(0, 2, 6)
+graph.add_edge(0, 3, 5)
+graph.add_edge(1, 3, 5)
+graph.add_edge(2, 3, 4)
+
+mst, total_weight = graph.Kruskal_mst
+puts "Arestas no MST: #{mst}"
+puts "Peso total do MST: #{total_weight}"
