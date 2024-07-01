@@ -5,3 +5,7 @@ A mentoria tem por finalidade preparar o programador para o mercado de trabalho,
 ## Pilar do Conhecimento
 
 ## Pilar das Hbilidades
+
+## Pilar da Experiência
+
+## Pilar das Emoções
