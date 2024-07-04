@@ -1,1 +1,1 @@
-# 
+# A ordenação por inserção constrói a lista de ordenada uma peça de cada vez, pegando elementos da lista de entrada e inserido-os na posição correta na lista.
