@@ -9,7 +9,12 @@ A mentoria tem por finalidade preparar o programador para o mercado de trabalho,
 * Fase 1
    - Linguagem de Programação
    - Orientação a Objetos 
-
+* Fase 2
+   - Framework Web 
+   - Banco de Dados
+* Fase 3
+   - Cloud Computing
+   - Devops
 ## Pilar das Hbilidades
 
 ## Pilar da Experiência
