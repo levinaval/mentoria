@@ -16,7 +16,14 @@ A mentoria tem por finalidade preparar o programador para o mercado de trabalho,
    - Cloud Computing
    - Devops
 ## Pilar das Hbilidades
-
+* Fase 0
+   - Aprender a Estudar
+   - Aprender a Praticar
+   - Aprender a Absorver
+* Fase 1
+   - Aprender a Ter Disciplina
+   - Aprender a Preticar
+   - Aprender a Resolver Problamas
 ## Pilar da Experiência
 
 ## Pilar das Emoções
