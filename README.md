@@ -32,5 +32,9 @@ A mentoria tem por finalidade preparar o programador para o mercado de trabalho,
    - Aprender a Pedir Ajuda
 * Fase 3
 ## Pilar da Experiência
+* Fase 0
+* Fase 1
+* Fase 2
+* Fase 3
 
 ## Pilar das Emoções
