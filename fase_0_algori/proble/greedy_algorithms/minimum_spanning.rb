@@ -25,7 +25,24 @@ class Graph
             end
             parent[u]
         end
+
         # Função para unir dois conjuntos (usando union by rank)
+        union = lambda do |u, v|
+            root_u = find.call(u)
+            root_v = find.call(v)
+            if root_u != root_v
+                if rank[root_u] < rank[root_v]
+                    parent[root_u] = root_v
+                 elsif rank[root_u] > rank[root_v]
+                    parent[root_v] = root_u
+                 else
+                    parent[root_u]= root_u
+                    rank[root_u] += 1 
+                end
+            end
+        end
+
+        #Ordena as aretas pelo peso
     end
 end
 
