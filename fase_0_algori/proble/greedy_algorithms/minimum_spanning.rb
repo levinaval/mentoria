@@ -25,6 +25,7 @@ class Graph
             end
             parent[u]
         end
-        
+        # Função para unir dois conjuntos (usando union by rank)
     end
 end
+
