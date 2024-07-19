@@ -6,4 +6,4 @@ def gcd(a, b)
     gcd(b, a % b)
 end
 
-puts gcd(48, 18)
+puts gcd(48, 20)
