@@ -8,3 +8,5 @@ elsif option == 2
 else
     puts "Opção invalida!"
 end
+
+puts "Abra a geladeira e olhe onde está a maçã"
