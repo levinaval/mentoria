@@ -9,4 +9,15 @@ else
     puts "Opção invalida!"
 end
 
-puts "Abra a geladeira e olhe onde está a maçã"
+puts "Abra a geladeira e olhe onde está a maçã."
+
+puts "Encontrou? 1 - Sim 2 - Não" 
+encontoru = gets.chomp.to_f
+
+if encontoru == 1
+    puts "Peque a maçã, vai querer cortar ou comer interira? Cortar - 1 Interia - 2"
+ elsif encontoru == 2
+    puts "Você vai ter que ir ao mercado!"
+ else
+    puts "Opção não valida!"
+end
