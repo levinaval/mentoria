@@ -16,6 +16,7 @@ encontoru = gets.chomp.to_f
 
 if encontoru == 1
     puts "Peque a maçã, vai querer cortar ou comer interira? Cortar - 1 Interia - 2"
+    escolha = gets.chomp.to_f
  elsif encontoru == 2
     puts "Você vai ter que ir ao mercado!"
  else
