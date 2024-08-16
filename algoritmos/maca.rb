@@ -6,22 +6,23 @@ if option == 1
 elsif option == 2
     puts "ok"
 else
-    puts "Opção invalida!"
+    puts "Opção inválida!"
 end
 
 puts "Abra a geladeira e olhe onde está a maçã."
 
 puts "Encontrou? 1 - Sim 2 - Não" 
-encontoru = gets.chomp.to_f
+encontrou = gets.chomp.to_f
 
-if encontoru == 1
-    puts "Peque a maçã, vai querer cortar ou comer interira? Cortar - 1 Interia - 2"
+if encontrou == 1
+    puts "Pegue a maçã, vai querer cortar ou comer inteira? Cortar - 1 Inteira - 2"
     escolha = gets.chomp.to_f
-    if escolha == 1 
+    if escolha == 1
+        puts "Pegue a faca, corte a maçã e coloque no prato." 
      elsif
     end
- elsif encontoru == 2
+ elsif encontrou == 2
     puts "Você vai ter que ir ao mercado!"
  else
-    puts "Opção não valida!"
+    puts "Opção não válida!"
 end
