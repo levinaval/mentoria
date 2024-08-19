@@ -1,3 +1,12 @@
+def prmpt(message)
+    puts message
+    gets.chomp.to_f
+end
+
+def handle_maca
+    puts "Levante e vá até a geladeira."
+end
+
 loop do
     puts "Você quer uma maçã? 1 - Sim 2 - Não"
     option = gets.chomp.to_f 
