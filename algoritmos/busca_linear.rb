@@ -10,3 +10,11 @@ def linear_search(array, target)
 end
 
 puts linear_search([10, 20, 30, 40, 50], 30)
+
+#Refatorado
+
+def linear_search(array, target)
+    array.index(target)
+end 
+
+puts linear_search([10, 20, 30, 40, 50], 30)
