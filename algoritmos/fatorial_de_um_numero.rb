@@ -15,10 +15,19 @@ end
 
 puts factorial(5)
 
-#Versão iterativa
+# Versão Iterativa.
 
 def factorial(n)
     (1..n).reduce(1, :*)
 end
 
-puts factorial(5)
+puts factorial(7)
+
+# Versão Recursiva.
+
+def factorial(n)
+    return 1 if n == 0
+    n * factorial(n - 1)
+end
+
+puts factorial(6)
