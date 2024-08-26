@@ -10,14 +10,14 @@ def handle_maca
 
     case encontrou
     when 1
-        escolha = prompt("Pegue a maçã. Vai querer cortar ou comer inteira? 1 - Cortar 2 - Inteira")
-        if escolha == 1
-            puts "Lave a fruta. Pegue a faca, corte a maçã e cologue no prato. e tenha um bom apetite!"
-            elsif escolha == 2
-                puts "Lave a fruta e tenha um bom apetite!"
-            else
-                puts "Opção não valida!"
-        end
+      escolha = prompt("Pegue a maçã. Vai querer cortar ou comer inteira? 1 - Cortar 2 - Inteira")
+      if escolha == 1
+          puts "Lave a fruta. Pegue a faca, corte a maçã e cologue no prato. e tenha um bom apetite!"
+      elsif escolha == 2
+          puts "Lave a fruta e tenha um bom apetite!"
+      else
+          puts "Opção não valida!"
+      end
     when 2
         puts "Você vai ter que ir ao mercado."
     else
