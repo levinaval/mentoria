@@ -23,4 +23,4 @@ def binariy_search(array, target)
     nil
 end
 
-puts binariy_search([1, 3, 5, 7, 9], 7)
+puts binariy_search([3, 5, 1, 6, 8], 7)
