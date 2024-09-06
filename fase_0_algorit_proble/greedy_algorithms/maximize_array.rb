@@ -9,6 +9,6 @@ def max_sum_pairs(array)
     sum
 end
 
-array = [3, 1, 4, 1, 5, 9]
+array = [3, 6, 2, 45, 2, 9]
 max_sum_pairs = maximize_sum_of_pairs(array)
 puts "A soma Máxima dos pares é: #{max_sum_pairs}"
